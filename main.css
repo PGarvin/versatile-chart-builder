@@ -1,0 +1,211 @@
+.horizontalBarChart .Name {
+  width: 100%;
+}
+
+.horizontalBarChart .Value span {
+  background: rgba(237, 236, 228, 1);
+}
+
+.horizontalBarChart .highlight .Value span {
+  background: rgba(191, 97, 81, 1)!important;
+}
+
+.horizontalBarChartTwoValues .Value span {
+  background: rgba(191, 97, 81, 1);
+}
+
+.pollSurvey .Value span {
+  background: rgba(237, 236, 228, 1);
+}
+
+.pollSurvey .highlight .Value span {
+  background: rgba(191, 97, 81, 1)!important;
+}
+
+.pollSurvey .row {
+  width: 100%;
+}
+
+.pollSurvey .Name {
+  width: 100%;
+}
+
+.Maps .color0 {
+  background: rgba(255, 239, 170, 1);
+}
+
+.Maps .color1 {
+  background: rgba(253, 205, 128, 1);
+}
+
+.Maps .color2 {
+  background: rgba(244, 148, 87, 1);
+}
+
+.Maps .color3 {
+  background: rgba(191, 97, 81, 1);
+}
+
+.Maps .color4 {
+  background: rgba(124, 31, 25, 1);
+}
+
+.Maps .limit1 {
+  fill: rgba(255, 239, 170, 1);
+  stroke: rgba(188, 188, 180, 1);
+}
+
+.Maps .limit2 {
+  fill: rgba(253, 205, 128, 1);
+  stroke: rgba(207, 169, 107, 1);
+}
+
+.Maps .limit3 {
+  fill: rgba(244, 148, 87, 1);
+  stroke: rgba(188, 188, 180, 1);
+}
+
+.Maps .limit4 {
+  fill: rgba(191, 97, 81, 1);
+  stroke: rgba(163, 82, 68, 1);
+}
+
+.Maps .limit5 {
+  fill: rgba(124, 31, 25, 1);
+  stroke: rgba(104, 20, 13, 1);
+}
+
+.Maps g {
+  fill: #EEE;
+  stroke: #FFF;
+  stroke-width: 1px;
+}
+
+.verticalBarChart .pos {
+  background: #58889e;
+}
+
+.verticalBarChart .active {
+  background: #ccc;
+}
+
+.verticalBarChart .neg {
+  background: #bf6151;
+}
+
+.verticalBarChart .second {
+  background: #c2d4de;
+}
+
+.verticalBarChart .color0 {
+  background: #58889e;
+}
+
+.verticalBarChart .color1 {
+  background: #c2d4de;
+}
+
+.stackedBarChart .row {
+  width: 100%;
+}
+
+.stackedBarChart .concept {
+  width: 100%;
+}
+
+.stackedBarChart .color1 {
+  background: rgba(220, 105, 81, 1);
+}
+
+.stackedBarChart .color4 {
+  background: rgba(181, 153, 125, 1);
+}
+
+.stackedBarChart .color3 {
+  background: rgba(244, 148, 87, 1);
+}
+
+.stackedBarChart .color2 {
+  background: rgba(250, 186, 84, 1);
+}
+
+.stackedBarChart .color5 {
+  background: rgba(227, 225, 214, 1);
+}
+
+.stackedBarChart .color6 {
+  background: rgba(195, 213, 222, 1);
+}
+
+.stackedBarChart .color7 {
+  background: rgba(144, 177, 192, 1);
+}
+
+.stackedBarChart .color8 {
+  background: rgba(89, 136, 157, 1);
+}
+
+.stackedBarChart .color9 {
+  background: rgba(157, 186, 115, 1);
+}
+
+.stackedBarChart .color10 {
+  background: rgba(207, 215, 200, 1);
+}
+
+.circleSquare .unit {
+  background: rgba(237, 236, 228, 1);
+}
+
+.circleSquare .highlight .unit {
+  background: rgba(191, 97, 81, 1)!important;
+}
+
+.circleSquare .Name {
+  width: 100%;
+}
+
+.circleSquare .square {
+  width: 20px;
+  height: 20px;
+  margin: 1.5px;
+  float: left;
+  display: inline-block;
+}
+
+.circleSquare .circle {
+  width: 20px;
+  height: 20px;
+  margin: 1.5px;
+  float: left;
+  display: inline-block;
+  -webkit-border-radius: 999px;
+  -moz-border-radius: 999px;
+  behavior: url(PIE.htc);
+}
+
+.gradient {
+  width: 50%;
+  float: left;
+  display: inline-block;
+  height: 15px;
+  margin: 5px;
+  background: -webkit-linear-gradient(left, rgba(244, 232, 227, 1), rgba(191, 97, 81, 1));
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, rgba(244, 232, 227, 1), rgba(191, 97, 81, 1));
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, rgba(244, 232, 227, 1), rgba(191, 97, 81, 1));
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, rgba(244, 232, 227, 1), rgba(191, 97, 81, 1));
+  /* Standard syntax */
+}
+
+.keytxt {
+  display: inline;
+  float: left;
+  font-family: 'BentonSans', Helvetica, Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  margin-top: 3px;
+}
